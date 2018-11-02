@@ -25,7 +25,7 @@ public interface MovieAPI {
     @GET("movie/{movie_id}/videos")
     Call<TrailerList> getVideos(@Path("movie_id") int id, @Query("api_key") String apiKey
     ,@Query("language") String language);
-    @GET("movie/{movie_id}/review")
+    @GET("movie/{movie_id}/reviews")
     Call<ReviewList> getReviews(@Path("movie_id") int id, @Query("api_key") String apiKey
             , @Query("language") String language);
 }
