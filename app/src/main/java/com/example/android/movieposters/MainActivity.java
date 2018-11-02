@@ -98,6 +98,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // Stetho.initializeWithDefaults(this);
 
+
+        //Added this line for appcenter tests
         AppCenter.start(getApplication(), "eabb4f31-a706-43a2-9f29-f9540cffa071", Analytics.class, Crashes.class);
 
         mRecyclerView = findViewById(R.id.recycledMovies);
