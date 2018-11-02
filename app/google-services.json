@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "34502427297",
+    "firebase_url": "https://androidapp-64f63.firebaseio.com",
+    "project_id": "androidapp-64f63",
+    "storage_bucket": "androidapp-64f63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34502427297:android:5ec86518aec1c715",
+        "android_client_info": {
+          "package_name": "com.example.android.movieposters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34502427297-qdv299vp94pjnu4f961pnhi45066s4v1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkCpqjjeIK3BDuZ-wezTeBcUTUENsQLBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
