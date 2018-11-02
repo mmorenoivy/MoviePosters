@@ -43,6 +43,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import com.microsoft.appcenter.AppCenter;
 import com.microsoft.appcenter.analytics.Analytics;
 import com.microsoft.appcenter.crashes.Crashes;
+import com.microsoft.appcenter.push.Push;
+
+
 /**
  * reference:
  * https://android--code.blogspot.com/2015/12/android-recyclerview-grid-layout-example.html
@@ -101,6 +104,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Added this line for appcenter tests
         AppCenter.start(getApplication(), "eabb4f31-a706-43a2-9f29-f9540cffa071", Analytics.class, Crashes.class);
+        AppCenter.start(getApplication(), "eabb4f31-a706-43a2-9f29-f9540cffa071", Push.class);
 
         mRecyclerView = findViewById(R.id.recycledMovies);
         mLayoutManager = new GridLayoutManager(this, 2);
